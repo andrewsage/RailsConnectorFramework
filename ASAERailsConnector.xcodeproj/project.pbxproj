@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4944BDC5194DBD5700A428FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4944BDC4194DBD5700A428FB /* Foundation.framework */; };
+		4944BDCA194DBD5700A428FB /* ASAERailsConnector.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4944BDC9194DBD5700A428FB /* ASAERailsConnector.h */; };
+		4944BDCC194DBD5700A428FB /* ASAERailsConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 4944BDCB194DBD5700A428FB /* ASAERailsConnector.m */; };
+		4944BDD3194DBD5700A428FB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4944BDD2194DBD5700A428FB /* XCTest.framework */; };
+		4944BDD4194DBD5700A428FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4944BDC4194DBD5700A428FB /* Foundation.framework */; };
+		4944BDD6194DBD5700A428FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4944BDD5194DBD5700A428FB /* UIKit.framework */; };
+		4944BDD9194DBD5700A428FB /* libASAERailsConnector.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4944BDC1194DBD5700A428FB /* libASAERailsConnector.a */; };
+		4944BDDF194DBD5700A428FB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4944BDDD194DBD5700A428FB /* InfoPlist.strings */; };
+		4944BDE1194DBD5700A428FB /* ASAERailsConnectorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4944BDE0194DBD5700A428FB /* ASAERailsConnectorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4944BDD7194DBD5700A428FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4944BDB9194DBD5700A428FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4944BDC0194DBD5700A428FB;
+			remoteInfo = ASAERailsConnector;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4944BDBF194DBD5700A428FB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				4944BDCA194DBD5700A428FB /* ASAERailsConnector.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4944BDC1194DBD5700A428FB /* libASAERailsConnector.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libASAERailsConnector.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4944BDC4194DBD5700A428FB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4944BDC8194DBD5700A428FB /* ASAERailsConnector-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ASAERailsConnector-Prefix.pch"; sourceTree = "<group>"; };
+		4944BDC9194DBD5700A428FB /* ASAERailsConnector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASAERailsConnector.h; sourceTree = "<group>"; };
+		4944BDCB194DBD5700A428FB /* ASAERailsConnector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASAERailsConnector.m; sourceTree = "<group>"; };
+		4944BDD1194DBD5700A428FB /* ASAERailsConnectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASAERailsConnectorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4944BDD2194DBD5700A428FB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4944BDD5194DBD5700A428FB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		4944BDDC194DBD5700A428FB /* ASAERailsConnectorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ASAERailsConnectorTests-Info.plist"; sourceTree = "<group>"; };
+		4944BDDE194DBD5700A428FB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4944BDE0194DBD5700A428FB /* ASAERailsConnectorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASAERailsConnectorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4944BDBE194DBD5700A428FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4944BDC5194DBD5700A428FB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4944BDCE194DBD5700A428FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4944BDD3194DBD5700A428FB /* XCTest.framework in Frameworks */,
+				4944BDD9194DBD5700A428FB /* libASAERailsConnector.a in Frameworks */,
+				4944BDD6194DBD5700A428FB /* UIKit.framework in Frameworks */,
+				4944BDD4194DBD5700A428FB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4944BDB8194DBD5700A428FB = {
+			isa = PBXGroup;
+			children = (
+				4944BDC6194DBD5700A428FB /* ASAERailsConnector */,
+				4944BDDA194DBD5700A428FB /* ASAERailsConnectorTests */,
+				4944BDC3194DBD5700A428FB /* Frameworks */,
+				4944BDC2194DBD5700A428FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4944BDC2194DBD5700A428FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4944BDC1194DBD5700A428FB /* libASAERailsConnector.a */,
+				4944BDD1194DBD5700A428FB /* ASAERailsConnectorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4944BDC3194DBD5700A428FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4944BDC4194DBD5700A428FB /* Foundation.framework */,
+				4944BDD2194DBD5700A428FB /* XCTest.framework */,
+				4944BDD5194DBD5700A428FB /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4944BDC6194DBD5700A428FB /* ASAERailsConnector */ = {
+			isa = PBXGroup;
+			children = (
+				4944BDC9194DBD5700A428FB /* ASAERailsConnector.h */,
+				4944BDCB194DBD5700A428FB /* ASAERailsConnector.m */,
+				4944BDC7194DBD5700A428FB /* Supporting Files */,
+			);
+			path = ASAERailsConnector;
+			sourceTree = "<group>";
+		};
+		4944BDC7194DBD5700A428FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4944BDC8194DBD5700A428FB /* ASAERailsConnector-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4944BDDA194DBD5700A428FB /* ASAERailsConnectorTests */ = {
+			isa = PBXGroup;
+			children = (
+				4944BDE0194DBD5700A428FB /* ASAERailsConnectorTests.m */,
+				4944BDDB194DBD5700A428FB /* Supporting Files */,
+			);
+			path = ASAERailsConnectorTests;
+			sourceTree = "<group>";
+		};
+		4944BDDB194DBD5700A428FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4944BDDC194DBD5700A428FB /* ASAERailsConnectorTests-Info.plist */,
+				4944BDDD194DBD5700A428FB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4944BDC0194DBD5700A428FB /* ASAERailsConnector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4944BDE4194DBD5800A428FB /* Build configuration list for PBXNativeTarget "ASAERailsConnector" */;
+			buildPhases = (
+				4944BDBD194DBD5700A428FB /* Sources */,
+				4944BDBE194DBD5700A428FB /* Frameworks */,
+				4944BDBF194DBD5700A428FB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ASAERailsConnector;
+			productName = ASAERailsConnector;
+			productReference = 4944BDC1194DBD5700A428FB /* libASAERailsConnector.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4944BDD0194DBD5700A428FB /* ASAERailsConnectorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4944BDE7194DBD5800A428FB /* Build configuration list for PBXNativeTarget "ASAERailsConnectorTests" */;
+			buildPhases = (
+				4944BDCD194DBD5700A428FB /* Sources */,
+				4944BDCE194DBD5700A428FB /* Frameworks */,
+				4944BDCF194DBD5700A428FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4944BDD8194DBD5700A428FB /* PBXTargetDependency */,
+			);
+			name = ASAERailsConnectorTests;
+			productName = ASAERailsConnectorTests;
+			productReference = 4944BDD1194DBD5700A428FB /* ASAERailsConnectorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4944BDB9194DBD5700A428FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = ASAE;
+			};
+			buildConfigurationList = 4944BDBC194DBD5700A428FB /* Build configuration list for PBXProject "ASAERailsConnector" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4944BDB8194DBD5700A428FB;
+			productRefGroup = 4944BDC2194DBD5700A428FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4944BDC0194DBD5700A428FB /* ASAERailsConnector */,
+				4944BDD0194DBD5700A428FB /* ASAERailsConnectorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4944BDCF194DBD5700A428FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4944BDDF194DBD5700A428FB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4944BDBD194DBD5700A428FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4944BDCC194DBD5700A428FB /* ASAERailsConnector.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4944BDCD194DBD5700A428FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4944BDE1194DBD5700A428FB /* ASAERailsConnectorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4944BDD8194DBD5700A428FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4944BDC0194DBD5700A428FB /* ASAERailsConnector */;
+			targetProxy = 4944BDD7194DBD5700A428FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4944BDDD194DBD5700A428FB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4944BDDE194DBD5700A428FB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4944BDE2194DBD5800A428FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4944BDE3194DBD5800A428FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4944BDE5194DBD5800A428FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ASAERailsConnector.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ASAERailsConnector/ASAERailsConnector-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4944BDE6194DBD5800A428FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ASAERailsConnector.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ASAERailsConnector/ASAERailsConnector-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4944BDE8194DBD5800A428FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ASAERailsConnector/ASAERailsConnector-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ASAERailsConnectorTests/ASAERailsConnectorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4944BDE9194DBD5800A428FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ASAERailsConnector/ASAERailsConnector-Prefix.pch";
+				INFOPLIST_FILE = "ASAERailsConnectorTests/ASAERailsConnectorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4944BDBC194DBD5700A428FB /* Build configuration list for PBXProject "ASAERailsConnector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4944BDE2194DBD5800A428FB /* Debug */,
+				4944BDE3194DBD5800A428FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4944BDE4194DBD5800A428FB /* Build configuration list for PBXNativeTarget "ASAERailsConnector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4944BDE5194DBD5800A428FB /* Debug */,
+				4944BDE6194DBD5800A428FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4944BDE7194DBD5800A428FB /* Build configuration list for PBXNativeTarget "ASAERailsConnectorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4944BDE8194DBD5800A428FB /* Debug */,
+				4944BDE9194DBD5800A428FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4944BDB9194DBD5700A428FB /* Project object */;
+}
