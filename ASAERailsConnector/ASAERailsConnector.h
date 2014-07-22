@@ -7,6 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import <ASAERailsConnector/ASAERailsConnection.h>
+#import <ASAERailsConnector/ASAERailsUser.h>
+#import <ASAERailsConnector/ASAERailsSignInViewController.h>
+#import <ASAERailsConnector/ASAERailsSignUpViewController.h>
 
 @interface ASAERailsConnector : NSObject
 

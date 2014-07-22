@@ -6,20 +6,55 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		4944BE03194DC3DB00A428FB /* Framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4944BE04194DC3DB00A428FB /* Build configuration list for PBXAggregateTarget "Framework" */;
+			buildPhases = (
+				4944BE09194DC3FC00A428FB /* MultiPlatform Build */,
+			);
+			dependencies = (
+				4944BE08194DC3F200A428FB /* PBXTargetDependency */,
+			);
+			name = Framework;
+			productName = Framework;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		4944BDC5194DBD5700A428FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4944BDC4194DBD5700A428FB /* Foundation.framework */; };
 		4944BDCA194DBD5700A428FB /* ASAERailsConnector.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4944BDC9194DBD5700A428FB /* ASAERailsConnector.h */; };
-		4944BDCC194DBD5700A428FB /* ASAERailsConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 4944BDCB194DBD5700A428FB /* ASAERailsConnector.m */; };
 		4944BDD3194DBD5700A428FB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4944BDD2194DBD5700A428FB /* XCTest.framework */; };
 		4944BDD4194DBD5700A428FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4944BDC4194DBD5700A428FB /* Foundation.framework */; };
 		4944BDD6194DBD5700A428FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4944BDD5194DBD5700A428FB /* UIKit.framework */; };
 		4944BDD9194DBD5700A428FB /* libASAERailsConnector.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4944BDC1194DBD5700A428FB /* libASAERailsConnector.a */; };
 		4944BDDF194DBD5700A428FB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4944BDDD194DBD5700A428FB /* InfoPlist.strings */; };
 		4944BDE1194DBD5700A428FB /* ASAERailsConnectorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4944BDE0194DBD5700A428FB /* ASAERailsConnectorTests.m */; };
+		4944BDEB194DBDE100A428FB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4944BDEA194DBDE100A428FB /* UIKit.framework */; };
+		4944BE1E194DCD4300A428FB /* ASAERailsConnector.h in Headers */ = {isa = PBXBuildFile; fileRef = 4944BDC9194DBD5700A428FB /* ASAERailsConnector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4944BE2D194DCDC500A428FB /* ASAERailsConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 4944BE25194DCDC500A428FB /* ASAERailsConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4944BE2E194DCDC500A428FB /* ASAERailsConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4944BE26194DCDC500A428FB /* ASAERailsConnection.m */; };
+		4944BE2F194DCDC500A428FB /* ASAERailsConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 4944BE26194DCDC500A428FB /* ASAERailsConnection.m */; };
+		4944BE30194DCDC500A428FB /* ASAERailsSignInViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4944BE27194DCDC500A428FB /* ASAERailsSignInViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4944BE31194DCDC500A428FB /* ASAERailsSignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4944BE28194DCDC500A428FB /* ASAERailsSignInViewController.m */; };
+		4944BE32194DCDC500A428FB /* ASAERailsSignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4944BE28194DCDC500A428FB /* ASAERailsSignInViewController.m */; };
+		4944BE33194DCDC500A428FB /* ASAERailsSignUpViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4944BE29194DCDC500A428FB /* ASAERailsSignUpViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4944BE34194DCDC500A428FB /* ASAERailsSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4944BE2A194DCDC500A428FB /* ASAERailsSignUpViewController.m */; };
+		4944BE35194DCDC500A428FB /* ASAERailsSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4944BE2A194DCDC500A428FB /* ASAERailsSignUpViewController.m */; };
+		4944BE36194DCDC500A428FB /* ASAERailsUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 4944BE2B194DCDC500A428FB /* ASAERailsUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4944BE37194DCDC500A428FB /* ASAERailsUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4944BE2C194DCDC500A428FB /* ASAERailsUser.m */; };
+		4944BE38194DCDC500A428FB /* ASAERailsUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4944BE2C194DCDC500A428FB /* ASAERailsUser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		4944BDD7194DBD5700A428FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4944BDB9194DBD5700A428FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4944BDC0194DBD5700A428FB;
+			remoteInfo = ASAERailsConnector;
+		};
+		4944BE07194DC3F200A428FB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4944BDB9194DBD5700A428FB /* Project object */;
 			proxyType = 1;
@@ -46,13 +81,21 @@
 		4944BDC4194DBD5700A428FB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4944BDC8194DBD5700A428FB /* ASAERailsConnector-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ASAERailsConnector-Prefix.pch"; sourceTree = "<group>"; };
 		4944BDC9194DBD5700A428FB /* ASAERailsConnector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASAERailsConnector.h; sourceTree = "<group>"; };
-		4944BDCB194DBD5700A428FB /* ASAERailsConnector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASAERailsConnector.m; sourceTree = "<group>"; };
 		4944BDD1194DBD5700A428FB /* ASAERailsConnectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASAERailsConnectorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4944BDD2194DBD5700A428FB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		4944BDD5194DBD5700A428FB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		4944BDDC194DBD5700A428FB /* ASAERailsConnectorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ASAERailsConnectorTests-Info.plist"; sourceTree = "<group>"; };
 		4944BDDE194DBD5700A428FB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4944BDE0194DBD5700A428FB /* ASAERailsConnectorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASAERailsConnectorTests.m; sourceTree = "<group>"; };
+		4944BDEA194DBDE100A428FB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4944BE25194DCDC500A428FB /* ASAERailsConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASAERailsConnection.h; sourceTree = "<group>"; };
+		4944BE26194DCDC500A428FB /* ASAERailsConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASAERailsConnection.m; sourceTree = "<group>"; };
+		4944BE27194DCDC500A428FB /* ASAERailsSignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASAERailsSignInViewController.h; sourceTree = "<group>"; };
+		4944BE28194DCDC500A428FB /* ASAERailsSignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASAERailsSignInViewController.m; sourceTree = "<group>"; };
+		4944BE29194DCDC500A428FB /* ASAERailsSignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASAERailsSignUpViewController.h; sourceTree = "<group>"; };
+		4944BE2A194DCDC500A428FB /* ASAERailsSignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASAERailsSignUpViewController.m; sourceTree = "<group>"; };
+		4944BE2B194DCDC500A428FB /* ASAERailsUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASAERailsUser.h; sourceTree = "<group>"; };
+		4944BE2C194DCDC500A428FB /* ASAERailsUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASAERailsUser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4944BDEB194DBDE100A428FB /* UIKit.framework in Frameworks */,
 				4944BDC5194DBD5700A428FB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -100,6 +144,7 @@
 		4944BDC3194DBD5700A428FB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4944BDEA194DBDE100A428FB /* UIKit.framework */,
 				4944BDC4194DBD5700A428FB /* Foundation.framework */,
 				4944BDD2194DBD5700A428FB /* XCTest.framework */,
 				4944BDD5194DBD5700A428FB /* UIKit.framework */,
@@ -110,8 +155,8 @@
 		4944BDC6194DBD5700A428FB /* ASAERailsConnector */ = {
 			isa = PBXGroup;
 			children = (
+				4944BE24194DCDC500A428FB /* ASAERailsConnector */,
 				4944BDC9194DBD5700A428FB /* ASAERailsConnector.h */,
-				4944BDCB194DBD5700A428FB /* ASAERailsConnector.m */,
 				4944BDC7194DBD5700A428FB /* Supporting Files */,
 			);
 			path = ASAERailsConnector;
@@ -143,7 +188,37 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		4944BE24194DCDC500A428FB /* ASAERailsConnector */ = {
+			isa = PBXGroup;
+			children = (
+				4944BE25194DCDC500A428FB /* ASAERailsConnection.h */,
+				4944BE26194DCDC500A428FB /* ASAERailsConnection.m */,
+				4944BE27194DCDC500A428FB /* ASAERailsSignInViewController.h */,
+				4944BE28194DCDC500A428FB /* ASAERailsSignInViewController.m */,
+				4944BE29194DCDC500A428FB /* ASAERailsSignUpViewController.h */,
+				4944BE2A194DCDC500A428FB /* ASAERailsSignUpViewController.m */,
+				4944BE2B194DCDC500A428FB /* ASAERailsUser.h */,
+				4944BE2C194DCDC500A428FB /* ASAERailsUser.m */,
+			);
+			path = ASAERailsConnector;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4944BDEC194DBE4A00A428FB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4944BE30194DCDC500A428FB /* ASAERailsSignInViewController.h in Headers */,
+				4944BE2D194DCDC500A428FB /* ASAERailsConnection.h in Headers */,
+				4944BE36194DCDC500A428FB /* ASAERailsUser.h in Headers */,
+				4944BE1E194DCD4300A428FB /* ASAERailsConnector.h in Headers */,
+				4944BE33194DCDC500A428FB /* ASAERailsSignUpViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		4944BDC0194DBD5700A428FB /* ASAERailsConnector */ = {
@@ -153,6 +228,8 @@
 				4944BDBD194DBD5700A428FB /* Sources */,
 				4944BDBE194DBD5700A428FB /* Frameworks */,
 				4944BDBF194DBD5700A428FB /* CopyFiles */,
+				4944BDEC194DBE4A00A428FB /* Headers */,
+				4944BE02194DC28000A428FB /* Build Framework */,
 			);
 			buildRules = (
 			);
@@ -204,6 +281,7 @@
 			targets = (
 				4944BDC0194DBD5700A428FB /* ASAERailsConnector */,
 				4944BDD0194DBD5700A428FB /* ASAERailsConnectorTests */,
+				4944BE03194DC3DB00A428FB /* Framework */,
 			);
 		};
 /* End PBXProject section */
@@ -219,12 +297,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4944BE02194DC28000A428FB /* Build Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Build Framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport FRAMEWORK_LOCN=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework\"\n\n# Create the path to the real Headers die\nmkdir -p \"${FRAMEWORK_LOCN}/Versions/A/Headers\"\n\n# Create the required symlinks\n/bin/ln -sfh A \"${FRAMEWORK_LOCN}/Versions/Current\"\n/bin/ln -sfh Versions/Current/Headers \"${FRAMEWORK_LOCN}/Headers\"\n/bin/ln -sfh \"Versions/Current/${PRODUCT_NAME}\" \\\n\"${FRAMEWORK_LOCN}/${PRODUCT_NAME}\"\n\n# Copy the public headers into the framework\n/bin/cp -a \"${TARGET_BUILD_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/\" \\\n\"${FRAMEWORK_LOCN}/Versions/A/Headers\"";
+		};
+		4944BE09194DC3FC00A428FB /* MultiPlatform Build */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "MultiPlatform Build";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\n# If we're already inside this script then die\nif [ -n \"$RW_MULTIPLATFORM_BUILD_IN_PROGRESS\" ]; then\nexit 0\nfi\nexport RW_MULTIPLATFORM_BUILD_IN_PROGRESS=1\n\nRW_FRAMEWORK_NAME=${PROJECT_NAME}\nRW_INPUT_STATIC_LIB=\"lib${PROJECT_NAME}.a\"\nRW_FRAMEWORK_LOCATION=\"${BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.framework\"\n\nfunction build_static_library {\n    # Will rebuild the static library as specified\n    #     build_static_library sdk\n    xcrun xcodebuild -project \"${PROJECT_FILE_PATH}\" \\\n    -target \"${TARGET_NAME}\" \\\n    -configuration \"${CONFIGURATION}\" \\\n    -sdk \"${1}\" \\\n    ONLY_ACTIVE_ARCH=NO \\\n    BUILD_DIR=\"${BUILD_DIR}\" \\\n    OBJROOT=\"${OBJROOT}\" \\\n    BUILD_ROOT=\"${BUILD_ROOT}\" \\\n    SYMROOT=\"${SYMROOT}\" $ACTION\n}\n\nfunction make_fat_library {\n    # Will smash 2 static libs together\n    #     make_fat_library in1 in2 out\n    xcrun lipo -create \"${1}\" \"${2}\" -output \"${3}\"\n}\n\n# 1 - Extract the platform (iphoneos/iphonesimulator) from the SDK name\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]; then\nRW_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\necho \"Could not find platform name from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\n# 2 - Extract the version from the SDK\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]; then\nRW_SDK_VERSION=${BASH_REMATCH[1]}\nelse\necho \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\n# 3 - Determine the other platform\nif [ \"$RW_SDK_PLATFORM\" == \"iphoneos\" ]; then\nRW_OTHER_PLATFORM=iphonesimulator\nelse\nRW_OTHER_PLATFORM=iphoneos\nfi\n\n# 4 - Find the build directory\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$RW_SDK_PLATFORM$ ]]; then\nRW_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${RW_OTHER_PLATFORM}\"\nelse\necho \"Could not find other platform build directory.\"\nexit 1\nfi\n\n# Build the other platform.\nbuild_static_library \"${RW_OTHER_PLATFORM}${RW_SDK_VERSION}\"\n\n# If we're currently building for iphonesimulator, then need to rebuild\n#   to ensure that we get both i386 and x86_64\nif [ \"$RW_SDK_PLATFORM\" == \"iphonesimulator\" ]; then\nbuild_static_library \"${SDK_NAME}\"\nfi\n\n# Join the 2 static libs into 1 and push into the .framework\nmake_fat_library \"${BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\" \\\n\"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_INPUT_STATIC_LIB}\" \\\n\"${RW_FRAMEWORK_LOCATION}/Versions/A/${RW_FRAMEWORK_NAME}\"\n\n# Ensure that the framework is present in both platform's build directories\ncp -a \"${RW_FRAMEWORK_LOCATION}/Versions/A/${RW_FRAMEWORK_NAME}\" \\\n\"${RW_OTHER_BUILT_PRODUCTS_DIR}/${RW_FRAMEWORK_NAME}.framework/Versions/A/${RW_FRAMEWORK_NAME}\"\n\n# Copy the framework to the user's desktop\nditto \"${RW_FRAMEWORK_LOCATION}\" \"${HOME}/Desktop/${RW_FRAMEWORK_NAME}.framework\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4944BDBD194DBD5700A428FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4944BDCC194DBD5700A428FB /* ASAERailsConnector.m in Sources */,
+				4944BE31194DCDC500A428FB /* ASAERailsSignInViewController.m in Sources */,
+				4944BE34194DCDC500A428FB /* ASAERailsSignUpViewController.m in Sources */,
+				4944BE37194DCDC500A428FB /* ASAERailsUser.m in Sources */,
+				4944BE2E194DCDC500A428FB /* ASAERailsConnection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,7 +344,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4944BE35194DCDC500A428FB /* ASAERailsSignUpViewController.m in Sources */,
+				4944BE32194DCDC500A428FB /* ASAERailsSignInViewController.m in Sources */,
+				4944BE38194DCDC500A428FB /* ASAERailsUser.m in Sources */,
 				4944BDE1194DBD5700A428FB /* ASAERailsConnectorTests.m in Sources */,
+				4944BE2F194DCDC500A428FB /* ASAERailsConnection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +359,11 @@
 			isa = PBXTargetDependency;
 			target = 4944BDC0194DBD5700A428FB /* ASAERailsConnector */;
 			targetProxy = 4944BDD7194DBD5700A428FB /* PBXContainerItemProxy */;
+		};
+		4944BE08194DC3F200A428FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4944BDC0194DBD5700A428FB /* ASAERailsConnector */;
+			targetProxy = 4944BE07194DC3F200A428FB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -289,7 +410,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -311,7 +432,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
+				COPY_PHASE_STRIP = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -320,7 +441,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -329,24 +450,30 @@
 		4944BDE5194DBD5800A428FB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = NO;
 				DSTROOT = /tmp/ASAERailsConnector.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ASAERailsConnector/ASAERailsConnector-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
 				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
 			};
 			name = Debug;
 		};
 		4944BDE6194DBD5800A428FB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEAD_CODE_STRIPPING = NO;
 				DSTROOT = /tmp/ASAERailsConnector.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ASAERailsConnector/ASAERailsConnector-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(PROJECT_NAME)";
 				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
 			};
 			name = Release;
 		};
@@ -386,6 +513,20 @@
 			};
 			name = Release;
 		};
+		4944BE05194DC3DB00A428FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4944BE06194DC3DB00A428FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -405,6 +546,7 @@
 				4944BDE6194DBD5800A428FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4944BDE7194DBD5800A428FB /* Build configuration list for PBXNativeTarget "ASAERailsConnectorTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +555,16 @@
 				4944BDE9194DBD5800A428FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4944BE04194DC3DB00A428FB /* Build configuration list for PBXAggregateTarget "Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4944BE05194DC3DB00A428FB /* Debug */,
+				4944BE06194DC3DB00A428FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
